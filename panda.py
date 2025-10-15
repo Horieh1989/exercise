@@ -28,7 +28,7 @@ print(nums_tuple1)
 
 
 def show_data(data):
-    for item in data:
+    for item in data.split('\n'):
         print(f"{item[0]} - {item[1:]}")
         
 info = "3 Clara\n4 David"
