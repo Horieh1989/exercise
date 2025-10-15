@@ -33,3 +33,10 @@ def show_data(data):
         
 info = "3 Clara\n4 David"
 show_data(info)
+
+
+def shout(word):
+    return word.upper()
+
+result = shout("hello")
+print(result)
